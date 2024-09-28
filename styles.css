@@ -1,8 +1,48 @@
 @font-face {
     font-family: 'bearpawregular';
-    src: url('bearpaw_-webfont.woff2') format('woff2'),
-         url('bearpaw_-webfont.woff') format('woff');
+    src: url('./fonts/bearpaw_-webfont.woff2') format('woff2'),
+         url('./fonts/bearpaw_-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    display: block;
+    max-height: 100vh;
+}
+
+.background {
+    position: relative;
+    width: max-content;
+}
+
+.logo-image {
+    max-width: 20%;
+}
+
+.logo {
+    top: 25vh;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-text {
+    font-family: "bearpawregular", sans-serif;
+    font-size: 6em;
+    color: white;
+    padding-top: 16px;
 }
