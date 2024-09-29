@@ -9,13 +9,62 @@
 <body>
     <!-- image attribution: Photo by <a href="https://unsplash.com/@androwv?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrei R. Popescu</a> on <a href="https://unsplash.com/photos/a-winding-road-in-the-middle-of-a-mountain-range-poyjT5Ap-oM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
     <!-- logo attribution: Image by <a href="https://pixabay.com/users/decster1-25688242/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8908037">Darren Collis</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8908037">Pixabay</a> -->
-    <div class="background">
-        <img class="background-image" src="./images/background.jpg" alt="photo of a misty mountain pass">
-        <div class="logo">
-            <img class="logo-image" src="./images/logo.png" alt="a logo that is a series of squares">
-            <div class="logo-text">
-                placeholder
+    <div class="container">
+        <div class="background">
+            <img class="background-image" src="./images/background.jpg" alt="photo of a misty mountain pass">
+            <div class="logo">
+                <img class="logo-image" src="./images/logo.png" alt="a logo that is a series of squares">
+                <div class="logo-text">
+                    placeholder
+                </div>
             </div>
+        </div>
+        <div class="content">
+            <div class="intro">
+                <p>
+                    This is not a real online service! You know you need something<br>
+                    like this in your life to help you realize your deepest dreams.<br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="">
+                <div class="inputs">
+                    <p>Let's do this!</p>
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="fname">FIRST NAME</label>
+                            <input id="fname" type="text">
+                        </div>
+                        <div class="form-item">
+                            <label for="lname">LAST NAME</label>
+                            <input id="lname" type="text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="mail">EMAIL</label>
+                            <input id="mail" type="email">
+                        </div>
+                        <div class="form-item">
+                            <label for="phn">PHONE NUMBER</label>
+                            <input id="phn" type="tel">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="pass">PASSWORD</label>
+                            <input id="pass" type="password">
+                        </div>
+                        <div class="form-item">
+                            <label for="confirm-pass">CONFIRM PASSWORD</label>
+                            <input id="confirm-pass" type="password">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>             
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </form>
         </div>
     </div>
 </body>
