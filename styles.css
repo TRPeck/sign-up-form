@@ -140,3 +140,12 @@ a {
     color: rgb(23, 109, 23);
     text-decoration: none;
 }
+
+.attributions {
+    color: rgba(255, 255, 255, 0.363);
+    position: absolute;
+    top: 97vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
