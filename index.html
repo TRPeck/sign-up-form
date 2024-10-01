@@ -15,7 +15,7 @@
             <div class="logo">
                 <img class="logo-image" src="./images/logo.png" alt="a logo that is a series of squares">
                 <div class="logo-text">
-                    placeholder
+                    lorem ipsum
                 </div>
             </div>
             <div class="attributions">
@@ -38,31 +38,31 @@
                     <div class="form-row">
                         <div class="form-item">
                             <label for="fname">FIRST NAME</label>
-                            <input id="fname" type="text" required>
+                            <input id="fname" name="fname" type="text" required>
                         </div>
                         <div class="form-item">
                             <label for="lname">LAST NAME</label>
-                            <input id="lname" type="text" required>
+                            <input id="lname" name="lname" type="text" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-item">
                             <label for="mail">EMAIL</label>
-                            <input id="mail" type="email" required>
+                            <input id="mail" name="mail" type="email" required>
                         </div>
                         <div class="form-item">
                             <label for="phn">PHONE NUMBER</label>
-                            <input id="phn" type="tel" required>
+                            <input id="phn" name="phn" type="tel" pattern="\d{10}" title="Please enter a 10 digit phone number." required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-item">
                             <label for="pass">PASSWORD</label>
-                            <input id="pass" type="password" required>
+                            <input id="pass" name="pass" type="password" minlength="8" pattern="[a-z]+[A-Z]+[0-9]+" title="Please enter a password of at least 8 characters, including at least one capital letter, one lowercase letter, and one number." required>
                         </div>
                         <div class="form-item">
                             <label for="confirm-pass">CONFIRM PASSWORD</label>
-                            <input id="confirm-pass" type="password" required>
+                            <input id="confirm-pass" name="confirm-pass" type="password" minlength="8" pattern="[a-z]+[A-Z]+[0-9]+" title="Please confirm your password of at least 8 characters, including at least one capital letter, one lowercase letter, and one number." required>
                         </div>
                     </div>
                 </div>
